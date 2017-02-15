@@ -152,8 +152,10 @@ class FirebaseLib implements FirebaseInterface
     {
         try {
             $ch = $this->_getCurlHandler($path, 'GET');
-            $return = curl_exec($ch);
+            $response = curl_exec($ch);
+            $err = curl_error($ch);
             curl_close($ch);
+            $return = ($err) ? "cURL Error #:" . $err : $response;
         } catch (Exception $e) {
             $return = null;
         }
@@ -172,8 +174,10 @@ class FirebaseLib implements FirebaseInterface
     {
         try {
             $ch = $this->_getCurlHandler($path, 'DELETE');
-            $return = curl_exec($ch);
+            $response = curl_exec($ch);
+            $err = curl_error($ch);
             curl_close($ch);
+            $return = ($err) ? "cURL Error #:" . $err : $response;
         } catch (Exception $e) {
             $return = null;
         }
@@ -211,8 +215,10 @@ class FirebaseLib implements FirebaseInterface
             $ch = $this->_getCurlHandler($path, $method);
             curl_setopt($ch, CURLOPT_HTTPHEADER, $header);
             curl_setopt($ch, CURLOPT_POSTFIELDS, $jsonData);
-            $return = curl_exec($ch);
+            $response = curl_exec($ch);
+            $err = curl_error($ch);
             curl_close($ch);
+            $return = ($err) ? "cURL Error #:" . $err : $response;
         } catch (Exception $e) {
             $return = null;
         }
