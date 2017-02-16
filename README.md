@@ -10,6 +10,7 @@ To relay a request to your firebase's realtime database:
 1. Construct a **POST** request to http://iot-https-relay-firebase.appspot.com/firebase/DatabaseService
 2. Set content type as **application/x-www-form-urlencoded** (see table below for POST parameters to include)
 3. Send the request & you're done!
+4. Still stuck? Import this [collection](https://github.com/tohjustin/iot-https-relay/blob/master/postman-tests.json) on [Postman](https://www.getpostman.com/) & see how the POST requests are being constructed
 
 | POST parameters 	| Description                                                                                                                                	|
 |-----------------	|--------------------------------------------------------------------------------------------------------------------------------------------	|
