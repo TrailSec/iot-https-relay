@@ -1,0 +1,476 @@
+{
+	"id": "640e069e-276b-33cc-1480-dd409723bfe8",
+	"name": "Test Requests (iot-https-relay-firebase)",
+	"description": "",
+	"order": [
+		"f8973582-ce40-2e38-64ce-b13b65155dc8",
+		"b37bce66-c534-2d20-5a01-fed8a9920ed8",
+		"70088c6b-b6cc-7a49-b3a8-43d44e852dcf",
+		"c8ceb7f6-86f2-5a98-a270-850c9fd8e36a",
+		"a42883a6-227d-23ee-8dc1-b8d0705f75aa",
+		"07162202-2acf-084d-aadd-db3e57a50337",
+		"1b103dcc-5d1a-2e2c-f885-33d9e19dedb9",
+		"273142ce-134c-2509-652d-d186c7699ec2",
+		"8d13d283-6d19-f0a8-7633-fe1fcbd65fdd",
+		"707ed2ab-666c-c45d-ea23-630feadc2dc8"
+	],
+	"folders": [],
+	"timestamp": 1487105664034,
+	"owner": "253993",
+	"remoteLink": "https://www.getpostman.com/collections/0ff22420d889d3d77f91",
+	"public": false,
+	"requests": [
+		{
+			"id": "07162202-2acf-084d-aadd-db3e57a50337",
+			"headers": "",
+			"url": "http://iot-https-relay-firebase.appspot.com/firebase/DatabaseService.json",
+			"preRequestScript": "",
+			"pathVariables": {},
+			"method": "POST",
+			"data": [
+				{
+					"key": "url",
+					"value": "https://cpen391-poc.firebaseio.com/",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "path",
+					"value": null,
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "method",
+					"value": "GET",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "data",
+					"value": null,
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "urlencoded",
+			"version": 2,
+			"tests": "",
+			"sandboxFiles": "",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1487225712099,
+			"name": "[GET] Relay test (iot-https-relay-firebase.appspot.com)",
+			"description": "",
+			"collectionId": "640e069e-276b-33cc-1480-dd409723bfe8",
+			"responses": []
+		},
+		{
+			"id": "1b103dcc-5d1a-2e2c-f885-33d9e19dedb9",
+			"headers": "",
+			"url": "http://iot-https-relay-firebase.appspot.com/firebase/DatabaseService.json",
+			"preRequestScript": "",
+			"pathVariables": {},
+			"method": "POST",
+			"data": [
+				{
+					"key": "url",
+					"value": "https://cpen391-poc.firebaseio.com/",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "path",
+					"value": "/Geolocation",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "method",
+					"value": "PUT",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "data",
+					"value": "{\"lat\": 999}",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "urlencoded",
+			"version": 2,
+			"tests": "",
+			"sandboxFiles": "",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1487225722026,
+			"name": "[PUT] Relay test (iot-https-relay-firebase.appspot.com)",
+			"description": "",
+			"collectionId": "640e069e-276b-33cc-1480-dd409723bfe8",
+			"responses": []
+		},
+		{
+			"id": "273142ce-134c-2509-652d-d186c7699ec2",
+			"headers": "",
+			"url": "http://iot-https-relay-firebase.appspot.com/firebase/DatabaseService.json",
+			"preRequestScript": "",
+			"pathVariables": {},
+			"method": "POST",
+			"data": [
+				{
+					"key": "url",
+					"value": "https://cpen391-poc.firebaseio.com/",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "path",
+					"value": "/Geolocation",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "method",
+					"value": "POST",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "data",
+					"value": "{\"lat\": 123}",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "urlencoded",
+			"version": 2,
+			"tests": "",
+			"sandboxFiles": "",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1487225750957,
+			"name": "[POST] Relay test (iot-https-relay-firebase.appspot.com)",
+			"description": "",
+			"collectionId": "640e069e-276b-33cc-1480-dd409723bfe8",
+			"responses": []
+		},
+		{
+			"id": "70088c6b-b6cc-7a49-b3a8-43d44e852dcf",
+			"headers": "",
+			"url": "http://localhost:8080/firebase/DatabaseService.json",
+			"preRequestScript": "",
+			"pathVariables": {},
+			"method": "POST",
+			"data": [
+				{
+					"key": "url",
+					"value": "https://cpen391-poc.firebaseio.com/",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "path",
+					"value": "/Geolocation",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "method",
+					"value": "POST",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "data",
+					"value": "{\"lat\": 123}",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "urlencoded",
+			"version": 2,
+			"tests": "",
+			"sandboxFiles": "",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1487225450614,
+			"name": "[POST] Relay test (localhost:8080)",
+			"description": "",
+			"collectionId": "640e069e-276b-33cc-1480-dd409723bfe8",
+			"responses": []
+		},
+		{
+			"id": "707ed2ab-666c-c45d-ea23-630feadc2dc8",
+			"headers": "",
+			"url": "http://iot-https-relay-firebase.appspot.com/firebase/DatabaseService.json",
+			"preRequestScript": "",
+			"pathVariables": {},
+			"method": "POST",
+			"data": [
+				{
+					"key": "url",
+					"value": "https://cpen391-poc.firebaseio.com/",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "path",
+					"value": null,
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "method",
+					"value": "DELETE",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "data",
+					"value": "{\"lat\": 123}",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "urlencoded",
+			"version": 2,
+			"tests": "",
+			"sandboxFiles": "",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1487225760772,
+			"name": "[DELETE] Relay test (iot-https-relay-firebase.appspot.com)",
+			"description": "",
+			"collectionId": "640e069e-276b-33cc-1480-dd409723bfe8",
+			"responses": []
+		},
+		{
+			"id": "8d13d283-6d19-f0a8-7633-fe1fcbd65fdd",
+			"headers": "",
+			"url": "http://iot-https-relay-firebase.appspot.com/firebase/DatabaseService.json",
+			"preRequestScript": "",
+			"pathVariables": {},
+			"method": "POST",
+			"data": [
+				{
+					"key": "url",
+					"value": "https://cpen391-poc.firebaseio.com/",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "path",
+					"value": "/Geolocation",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "method",
+					"value": "PATCH",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "data",
+					"value": "{\"lat\": 222}",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "urlencoded",
+			"version": 2,
+			"tests": "",
+			"sandboxFiles": "",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1487225755341,
+			"name": "[PATCH] Relay test (iot-https-relay-firebase.appspot.com)",
+			"description": "",
+			"collectionId": "640e069e-276b-33cc-1480-dd409723bfe8",
+			"responses": []
+		},
+		{
+			"id": "a42883a6-227d-23ee-8dc1-b8d0705f75aa",
+			"headers": "",
+			"url": "http://localhost:8080/firebase/DatabaseService.json",
+			"preRequestScript": "",
+			"pathVariables": {},
+			"method": "POST",
+			"data": [
+				{
+					"key": "url",
+					"value": "https://cpen391-poc.firebaseio.com/",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "path",
+					"value": null,
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "method",
+					"value": "DELETE",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "data",
+					"value": "{\"lat\": 123}",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "urlencoded",
+			"version": 2,
+			"tests": "",
+			"sandboxFiles": "",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1487225492540,
+			"name": "[DELETE] Relay test (localhost:8080)",
+			"description": "",
+			"collectionId": "640e069e-276b-33cc-1480-dd409723bfe8",
+			"responses": []
+		},
+		{
+			"id": "b37bce66-c534-2d20-5a01-fed8a9920ed8",
+			"headers": "",
+			"url": "http://localhost:8080/firebase/DatabaseService.json",
+			"preRequestScript": "",
+			"pathVariables": {},
+			"method": "POST",
+			"data": [
+				{
+					"key": "url",
+					"value": "https://cpen391-poc.firebaseio.com/",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "path",
+					"value": "/Geolocation",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "method",
+					"value": "PUT",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "data",
+					"value": "{\"lat\": 999}",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "urlencoded",
+			"version": 2,
+			"tests": "",
+			"sandboxFiles": "",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1487225518087,
+			"name": "[PUT] Relay test (localhost:8080)",
+			"description": "",
+			"collectionId": "640e069e-276b-33cc-1480-dd409723bfe8",
+			"responses": []
+		},
+		{
+			"id": "c8ceb7f6-86f2-5a98-a270-850c9fd8e36a",
+			"headers": "",
+			"url": "http://localhost:8080/firebase/DatabaseService.json",
+			"preRequestScript": "",
+			"pathVariables": {},
+			"method": "POST",
+			"data": [
+				{
+					"key": "url",
+					"value": "https://cpen391-poc.firebaseio.com/",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "path",
+					"value": "/Geolocation",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "method",
+					"value": "PATCH",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "data",
+					"value": "{\"lat\": 222}",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "urlencoded",
+			"version": 2,
+			"tests": "",
+			"sandboxFiles": "",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1487225466893,
+			"name": "[PATCH] Relay test (localhost:8080)",
+			"description": "",
+			"collectionId": "640e069e-276b-33cc-1480-dd409723bfe8",
+			"responses": []
+		},
+		{
+			"id": "f8973582-ce40-2e38-64ce-b13b65155dc8",
+			"headers": "",
+			"url": "http://localhost:8080/firebase/DatabaseService.json",
+			"preRequestScript": "",
+			"pathVariables": {},
+			"method": "POST",
+			"data": [
+				{
+					"key": "url",
+					"value": "https://cpen391-poc.firebaseio.com/",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "path",
+					"value": null,
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "method",
+					"value": "GET",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "data",
+					"value": null,
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "urlencoded",
+			"version": 2,
+			"tests": "",
+			"sandboxFiles": "",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1487224739766,
+			"name": "[GET] Relay test (localhost:8080)",
+			"description": "",
+			"collectionId": "640e069e-276b-33cc-1480-dd409723bfe8",
+			"responses": [],
+			"isFromCollection": true,
+			"collectionRequestId": "72d5c633-3b81-0df5-0da5-febd26f647c9"
+		}
+	]
+}
