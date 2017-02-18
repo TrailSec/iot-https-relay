@@ -3,7 +3,6 @@
   "scripts": {
     "dev": "dev_appserver.py app.yaml",
     "deploy": "gcloud app deploy",
-    "deploy-verbose": "gcloud app deploy --verbosity=info",
     "live": "gcloud app browse"
   }
 }

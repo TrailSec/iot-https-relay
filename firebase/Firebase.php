@@ -4,8 +4,8 @@ ini_set('display_errors', 1);
 ini_set('display_startup_errors', 1);
 error_reporting(E_ALL);
 
-if (empty($_POST['url'])) {
-    echo "Missing [url] param!";
+if (empty($_POST['firebase-url'])) {
+    echo "Missing [firebase-url] param!";
     exit;
 }
 
@@ -14,7 +14,7 @@ if (empty($_POST['method'])) {
     exit;
 }
 
-$DEFAULT_URL = $_POST['url'];
+$DEFAULT_URL = $_POST['firebase-url'];
 $DEFAULT_TOKEN = isset($_POST['token']) ? $_POST['token'] : "";
 $DEFAULT_PATH = isset($_POST['path']) ? $_POST['path'] : "";
 $RELAY_METHOD = $_POST['method'];
