@@ -14,7 +14,7 @@ To relay a request to your firebase's realtime database:
 
 | POST parameters 	| Description                                                                                                                                	|
 |-----------------	|--------------------------------------------------------------------------------------------------------------------------------------------	|
-| firebase-url      | Relay destination (eg. "https://[YOUR-PROJECT-ID].firebaseio.com/")                                                                                                 	|
+| firebaseUrl      | Relay destination (eg. "https://[YOUR-PROJECT-ID].firebaseio.com/")                                                                                                 	|
 | path            	| Path to database resource  (eg. Passing in "/geolocation" means that you want your request to be relayed to "https://[YOUR-PROJECT-ID].firebaseio.com/geolocation") 	|
 | method          	| Pass in any of the following methods: **"GET" / "PUT" / "POST" / "PATCH" / "DELETE"**                                                                                                           	|
 | data            	| JSON String data to include in your relayed request  (Exclude this parameter for **GET** or **DELETE** requests)     	|
